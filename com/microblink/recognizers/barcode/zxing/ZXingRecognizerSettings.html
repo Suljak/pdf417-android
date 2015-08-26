@@ -197,48 +197,61 @@ extends <a href="../../../../../com/microblink/recognizers/settings/RecognizerSe
 <td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html#isInverseScanMode()">isInverseScanMode</a></strong>()</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html#isSlowThoroughScan()">isSlowThoroughScan</a></strong>()</code>
+<div class="block">Returns true if slower, more thorough scan procedure is used</div>
+</td>
+</tr>
+<tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html#setInverseScanning(boolean)">setInverseScanning</a></strong>(boolean&nbsp;inverseBarcodeScanning)</code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html#setScanAztecCode(boolean)">setScanAztecCode</a></strong>(boolean&nbsp;scanAztecCode)</code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html#setScanCode128(boolean)">setScanCode128</a></strong>(boolean&nbsp;scanCode128)</code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html#setScanCode39(boolean)">setScanCode39</a></strong>(boolean&nbsp;scanCode39)</code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html#setScanDataMatrixCode(boolean)">setScanDataMatrixCode</a></strong>(boolean&nbsp;scanDataMatrixCode)</code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html#setScanEAN13Code(boolean)">setScanEAN13Code</a></strong>(boolean&nbsp;scanEAN13Code)</code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html#setScanEAN8Code(boolean)">setScanEAN8Code</a></strong>(boolean&nbsp;scanEAN8Code)</code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html#setScanITFCode(boolean)">setScanITFCode</a></strong>(boolean&nbsp;scanITFCode)</code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html#setScanQRCode(boolean)">setScanQRCode</a></strong>(boolean&nbsp;scanQRCode)</code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html#setScanUPCACode(boolean)">setScanUPCACode</a></strong>(boolean&nbsp;scanUPCACode)</code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html#setScanUPCECode(boolean)">setScanUPCECode</a></strong>(boolean&nbsp;scanUPCECode)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html#setSlowThoroughScan(boolean)">setSlowThoroughScan</a></strong>(boolean&nbsp;slowThoroughScan)</code>
+<div class="block">If this is enabled (default), then scanning will be slower, but more thorough, thus
+ giving higher possibility of successful scan.</div>
+</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
@@ -567,6 +580,29 @@ extends <a href="../../../../../com/microblink/recognizers/settings/RecognizerSe
 <h4>isInverseScanMode</h4>
 <pre>public&nbsp;boolean&nbsp;isInverseScanMode()</pre>
 <dl><dt><span class="strong">Returns:</span></dt><dd>true, if inverse barcode scanning mode is enabled</dd></dl>
+</li>
+</ul>
+<a name="setSlowThoroughScan(boolean)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setSlowThoroughScan</h4>
+<pre>public&nbsp;void&nbsp;setSlowThoroughScan(boolean&nbsp;slowThoroughScan)</pre>
+<div class="block">If this is enabled (default), then scanning will be slower, but more thorough, thus
+ giving higher possibility of successful scan.</div>
+<dl><dt><span class="strong">Parameters:</span></dt><dd><code>slowThoroughScan</code> - should slower, more thorough scan procedure be used</dd></dl>
+</li>
+</ul>
+<a name="isSlowThoroughScan()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>isSlowThoroughScan</h4>
+<pre>public&nbsp;boolean&nbsp;isSlowThoroughScan()</pre>
+<div class="block">Returns true if slower, more thorough scan procedure is used</div>
+<dl><dt><span class="strong">Returns:</span></dt><dd>true if slower, more thorough scan procedure is used</dd></dl>
 </li>
 </ul>
 <a name="describeContents()">

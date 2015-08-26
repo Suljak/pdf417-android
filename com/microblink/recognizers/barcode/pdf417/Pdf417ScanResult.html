@@ -192,28 +192,34 @@ extends <a href="../../../../../com/microblink/recognizers/BaseRecognitionResult
 <th class="colLast" scope="col">Method and Description</th>
 </tr>
 <tr class="altColor">
+<td class="colFirst"><code><a href="../../../../../com/microblink/geometry/Quadrilateral.html" title="class in com.microblink.geometry">Quadrilateral</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/pdf417/Pdf417ScanResult.html#getPositionOnImage()">getPositionOnImage</a></strong>()</code>
+<div class="block">Returns the position of barcode on image.</div>
+</td>
+</tr>
+<tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../../com/microblink/results/barcode/BarcodeDetailedData.html" title="class in com.microblink.results.barcode">BarcodeDetailedData</a></code></td>
 <td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/pdf417/Pdf417ScanResult.html#getRawData()">getRawData</a></strong>()</code>
 <div class="block">Returns the raw barcode data.</div>
 </td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/pdf417/Pdf417ScanResult.html#getStringData()">getStringData</a></strong>()</code>
 <div class="block">Returns the string representation of data inside barcode.</div>
 </td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/pdf417/Pdf417ScanResult.html#getTitle()">getTitle</a></strong>()</code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/pdf417/Pdf417ScanResult.html#isUncertain()">isUncertain</a></strong>()</code>
 <div class="block">Returns true if returned data is uncertain, only applicable if used with Pdf417RecognizerSettings.setUncertainScanning(true)</div>
 </td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <td class="colLast"><code><strong><a href="../../../../../com/microblink/recognizers/barcode/pdf417/Pdf417ScanResult.html#toString()">toString</a></strong>()</code>&nbsp;</td>
 </tr>
@@ -323,6 +329,19 @@ extends <a href="../../../../../com/microblink/recognizers/BaseRecognitionResult
 <pre>public&nbsp;boolean&nbsp;isUncertain()</pre>
 <div class="block">Returns true if returned data is uncertain, only applicable if used with Pdf417RecognizerSettings.setUncertainScanning(true)</div>
 <dl><dt><span class="strong">Returns:</span></dt><dd>true if returned data is uncertain</dd></dl>
+</li>
+</ul>
+<a name="getPositionOnImage()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getPositionOnImage</h4>
+<pre>public&nbsp;<a href="../../../../../com/microblink/geometry/Quadrilateral.html" title="class in com.microblink.geometry">Quadrilateral</a>&nbsp;getPositionOnImage()</pre>
+<div class="block">Returns the position of barcode on image.
+ Note that returned coordinates are in image's coordinate system. This is not related to
+ view coordinate system used for drawing and positioning UI elements.</div>
+<dl><dt><span class="strong">Returns:</span></dt><dd>the position of barcode on image.</dd></dl>
 </li>
 </ul>
 <a name="getTitle()">
