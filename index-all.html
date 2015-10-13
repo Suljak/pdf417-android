@@ -677,8 +677,6 @@
 <dd>
 <div class="block">Returns the type of barcode scanned with ZXing recognizer.</div>
 </dd>
-<dt><span class="strong"><a href="./com/microblink/view/recognition/RecognizerView.html#getBestFrameMutex()">getBestFrameMutex()</a></span> - Method in class com.microblink.view.recognition.<a href="./com/microblink/view/recognition/RecognizerView.html" title="class in com.microblink.view.recognition">RecognizerView</a></dt>
-<dd>&nbsp;</dd>
 <dt><span class="strong"><a href="./com/microblink/results/ocr/OcrResult.html#getBlocks()">getBlocks()</a></span> - Method in class com.microblink.results.ocr.<a href="./com/microblink/results/ocr/OcrResult.html" title="class in com.microblink.results.ocr">OcrResult</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="strong"><a href="./com/microblink/image/ImagePlane.html#getBuffer()">getBuffer()</a></span> - Method in class com.microblink.image.<a href="./com/microblink/image/ImagePlane.html" title="class in com.microblink.image">ImagePlane</a></dt>
@@ -710,8 +708,6 @@
 <dt><span class="strong"><a href="./com/microblink/view/BaseCameraView.html#getConfigurationOrientation()">getConfigurationOrientation()</a></span> - Method in class com.microblink.view.<a href="./com/microblink/view/BaseCameraView.html" title="class in com.microblink.view">BaseCameraView</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="strong"><a href="./com/microblink/locale/Language.html#getCountry()">getCountry()</a></span> - Method in enum com.microblink.locale.<a href="./com/microblink/locale/Language.html" title="enum in com.microblink.locale">Language</a></dt>
-<dd>&nbsp;</dd>
-<dt><span class="strong"><a href="./com/microblink/view/recognition/RecognizerView.html#getCurrentlyBestFrame()">getCurrentlyBestFrame()</a></span> - Method in class com.microblink.view.recognition.<a href="./com/microblink/view/recognition/RecognizerView.html" title="class in com.microblink.view.recognition">RecognizerView</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="strong"><a href="./com/microblink/view/BaseCameraView.html#getCurrentOrientation()">getCurrentOrientation()</a></span> - Method in class com.microblink.view.<a href="./com/microblink/view/BaseCameraView.html" title="class in com.microblink.view">BaseCameraView</a></dt>
 <dd>&nbsp;</dd>
@@ -1145,8 +1141,6 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/hardware/orientation/Orientation.html#intValue()">intValue()</a></span> - Method in enum com.microblink.hardware.orientation.<a href="./com/microblink/hardware/orientation/Orientation.html" title="enum in com.microblink.hardware.orientation">Orientation</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="strong"><a href="./com/microblink/view/recognition/RecognizerView.html#invalidateBestFrame()">invalidateBestFrame()</a></span> - Method in class com.microblink.view.recognition.<a href="./com/microblink/view/recognition/RecognizerView.html" title="class in com.microblink.view.recognition">RecognizerView</a></dt>
-<dd>&nbsp;</dd>
 <dt><a href="./com/microblink/recognition/InvalidLicenceKeyException.html" title="class in com.microblink.recognition"><span class="strong">InvalidLicenceKeyException</span></a> - Exception in <a href="./com/microblink/recognition/package-summary.html">com.microblink.recognition</a></dt>
 <dd>
 <div class="block">Thrown when invalid licence key is set to library.</div>
@@ -1245,6 +1239,10 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/view/BaseCameraView.LayoutParams.html#isRotatable()">isRotatable()</a></span> - Method in class com.microblink.view.<a href="./com/microblink/view/BaseCameraView.LayoutParams.html" title="class in com.microblink.view">BaseCameraView.LayoutParams</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLRecognizerSettings.html#isScanning1DBarcodes()">isScanning1DBarcodes()</a></span> - Method in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLRecognizerSettings.html" title="class in com.microblink.recognizers.barcode.usdl">USDLRecognizerSettings</a></dt>
+<dd>
+<div class="block">Returns true if scanning of 1D barcodes on some driver's licenses is enabled.</div>
+</dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html#isSlowThoroughScan()">isSlowThoroughScan()</a></span> - Method in class com.microblink.recognizers.barcode.zxing.<a href="./com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html" title="class in com.microblink.recognizers.barcode.zxing">ZXingRecognizerSettings</a></dt>
 <dd>
 <div class="block">Returns true if slower, more thorough scan procedure is used</div>
@@ -1284,39 +1282,27 @@
 </a>
 <h2 class="title">K</h2>
 <dl>
-<dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kAamvaVersionNumber">kAamvaVersionNumber</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
-<dd>
-<div class="block">Mandatory on all AAMVA driver's license versions.</div>
-</dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kAddressCity">kAddressCity</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 01, 02, 03, 04, 05, 06, 07, 08
-
-     On compact encoding, use kFullAddress.</div>
+<div class="block">Mandatory on all AAMVA and Magnetic barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kAddressJurisdictionCode">kAddressJurisdictionCode</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 01, 02, 03, 04, 05, 06, 07, 08
-
-     On compact encoding, use kFullAddress.</div>
+<div class="block">Mandatory on all AAMVA and Magnetic barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kAddressPostalCode">kAddressPostalCode</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 01, 02, 03, 04, 05, 06, 07, 08
-
-     On compact encoding, use kFullAddress.</div>
+<div class="block">Mandatory on all AAMVA and Magnetic barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kAddressStreet">kAddressStreet</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 01, 02, 03, 04, 05, 06, 07, 08
-
-     On compact encoding, use kFullAddress.</div>
+<div class="block">Mandatory on all AAMVA and Magnetic barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kAddressStreet2">kAddressStreet2</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 01, 02, 03, 04, 05, 06, 07, 08
+<div class="block">Optional on all AAMVA barcodes
 
-     On Compact encoding, use kFullAddress
+     On Compact barcodes, use kFullAddress
 
      Second line of street portion of the cardholder address.</div>
 </dd>
@@ -1326,21 +1312,15 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kAKAFamilyName">kAKAFamilyName</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 01, 03, 04, 05, 06, 07, 08 and Compact Encoding
-
-     Other family name by which cardholder is known.</div>
+<div class="block">Optional on all AAMVA and Compact barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kAKAFullName">kAKAFullName</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA version 01, 02
-
-     Other name by which cardholder is known.</div>
+<div class="block">Optional on all AAMVA and Compact barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kAKAGivenName">kAKAGivenName</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 01, 03, 04, 05, 06, 07, 08 and Compact Encoding
-
-     Other given name by which cardholder is known</div>
+<div class="block">Optional on all AAMVA and Compact barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kAKAMiddleName">kAKAMiddleName</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
@@ -1360,9 +1340,7 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kAKASuffixName">kAKASuffixName</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 01, 03, 04, 05, 06, 07, 08 and Compact Encoding
-
-     Other suffix by which cardholder is known.</div>
+<div class="block">Optional on all AAMVA and Compact barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/SettingsKeys.html#kAllBarcodeRecognizerKeys">kAllBarcodeRecognizerKeys</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/SettingsKeys.html" title="class in com.microblink.recognizers.settings">SettingsKeys</a></dt>
 <dd>&nbsp;</dd>
@@ -1395,7 +1373,7 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kAuditInformation">kAuditInformation</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 02, 03, 04, 05, 06, 07, 08 and Compact Encoding
+<div class="block">Optional on AAMVA 02, 03, 04, 05, 06, 07, 08 and Compact barcodes
 
      A string of letters and/or numbers that identifies when, where, and by whom a driver
      license/ID card was made.</div>
@@ -1418,25 +1396,9 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/SettingsKeys.html#kBarDecoder">kBarDecoder</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/SettingsKeys.html" title="class in com.microblink.recognizers.settings">SettingsKeys</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kBDBFormatOwner">kBDBFormatOwner</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
-<dd>
-<div class="block">Optional on compact encodings.</div>
-</dd>
-<dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kBDBFormatType">kBDBFormatType</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
-<dd>
-<div class="block">Optional on compact encodings.</div>
-</dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/SettingsKeys.html#kBeSlip">kBeSlip</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/SettingsKeys.html" title="class in com.microblink.recognizers.settings">SettingsKeys</a></dt>
 <dd>
 <div class="block">scan Belgian slip</div>
-</dd>
-<dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kBiometricData">kBiometricData</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
-<dd>
-<div class="block">Optional on compact encodings.</div>
-</dd>
-<dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kBiometricDataLength">kBiometricDataLength</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
-<dd>
-<div class="block">Optional on compact encodings.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/SettingsKeys.html#kBlinkOCR">kBlinkOCR</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/SettingsKeys.html" title="class in com.microblink.recognizers.settings">SettingsKeys</a></dt>
 <dd>&nbsp;</dd>
@@ -1446,7 +1408,7 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kCardRevisionDate">kCardRevisionDate</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 04, 05, 06, 07, 08 and Compact Encoding
+<div class="block">Optional on AAMVA 04, 05, 06, 07, 08 and Compact barcodes
 
      DHS required field that indicates date of the most recent version change or
      modification to the visible format of the DL/ID (MMDDCCYY format)</div>
@@ -1461,16 +1423,14 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kComplianceType">kComplianceType</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 04, 05, 06, 07, 08 and Compact Encoding
+<div class="block">Optional on AAMVA 04, 05, 06, 07, 08 and Compact barcodes
 
      DHS required field that indicates compliance: "M" = materially compliant;
      "F" = fully compliant; and, "N" = non-compliant.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kCountryIdentification">kCountryIdentification</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 02, 03, 04, 05, 06, 07, 08 and Compact Encoding
-
-     Country in which DL/ID is issued.</div>
+<div class="block">Mandatory on AAMVA 02, 03, 04, 05, 06, 07, 08 and Compact barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/ParserSettingsKeys.html#kCroAmount">kCroAmount</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/ParserSettingsKeys.html" title="class in com.microblink.recognizers.settings">ParserSettingsKeys</a></dt>
 <dd>
@@ -1502,32 +1462,25 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kCustomerFamilyName">kCustomerFamilyName</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 01, 02, 03, 04, 05, 06, 07, 08 AND compact encoding.</div>
+<div class="block">Mandatory on all AAMVA, Magnetic and Compact barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kCustomerFirstName">kCustomerFirstName</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 01, 02, 03, 04, 05, 06, 07, 08 and Compact encoding
-
-     First name of the cardholder.</div>
+<div class="block">Mandatory on all AAMVA, Magnetic and Compact barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kCustomerFullName">kCustomerFullName</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 01
-
-     NAME of the individual holding the Driver License or ID as defined in
-     ANSI D20 Data Dictionary.</div>
+<div class="block">Mandatory on all AAMVA, Magnetic and Compact barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kCustomerIdNumber">kCustomerIdNumber</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 01, 02, 03, 04, 05, 06, 07, 08 and Compact Encoding
+<div class="block">Mandatory on all AAMVA and Compact barcodes
 
      The number assigned or calculated by the issuing authority.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kCustomerMiddleName">kCustomerMiddleName</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 04, 05, 06, 07, 08
-
-     Optional on 01.</div>
+<div class="block">Mandatory on AAMVA 04, 05, 06, 07, 08.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kDataDiscriminator">kDataDiscriminator</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
@@ -1543,9 +1496,7 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kDateOfBirth">kDateOfBirth</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 01, 02, 03, 04, 05, 06, 07, 08 and Compact encoding
-
-     Date on which the cardholder was born.</div>
+<div class="block">Mandatory on all AAMVA, Magentic and Compact barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/ParserSettingsKeys.html#kDefaultParserGroup">kDefaultParserGroup</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/ParserSettingsKeys.html" title="class in com.microblink.recognizers.settings">ParserSettingsKeys</a></dt>
 <dd>&nbsp;</dd>
@@ -1563,37 +1514,27 @@
 <dd>&nbsp;</dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kDocumentDiscriminator">kDocumentDiscriminator</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 02, 03, 04, 05, 06, 07, 08 and Compact Encoding
-
-     Number must uniquely identify a particular document issued to that customer
-     from others that may have been issued in the past.</div>
+<div class="block">Mandatory on AAMVA 02, 03, 04, 05, 06, 07, 08 and Magnetic barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kDocumentExpirationDate">kDocumentExpirationDate</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 01, 02, 03, 04, 05, 06, 07, 08 and Compact Encoding
-
-     Date on which the driving and identification privileges granted by the document are
-     no longer valid.</div>
+<div class="block">Mandatory on all AAMVA, Magnetic and Compact barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kDocumentExpirationMonth">kDocumentExpirationMonth</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA Magnetic Stripe Encoding
-
-     Date on which the driving and identification privileges granted by the document are
-     no longer valid.</div>
+<div class="block">Optional on Magnetic barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kDocumentIssueDate">kDocumentIssueDate</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 01, 02, 03, 04, 05, 06, 07, 08 and Compact Encoding
-
-     Date on which the document was issued.</div>
+<div class="block">Mandatory on all AAMVA and Compact barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kDocumentNonexpiring">kDocumentNonexpiring</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA Magnetic Stripe Encoding
-
-     Field that indicates that the driving and identification privileges granted by the
-     document are nonexpiring = "1".</div>
+<div class="block">Optional on Magnetic barcodes.</div>
+</dd>
+<dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kDocumentType">kDocumentType</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
+<dd>
+<div class="block">Mandatory on all driver's licenses.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/SettingsKeys.html#kEAN13">kEAN13</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/SettingsKeys.html" title="class in com.microblink.recognizers.settings">SettingsKeys</a></dt>
 <dd>
@@ -1623,16 +1564,11 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kEyeColor">kEyeColor</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 01, 02, 03, 04, 05, 06, 07, 08 and Compact encoding
-
-     Color of cardholder's eyes.</div>
+<div class="block">Mandatory on AAMVA 02, 03, 04, 05, 06, 07, 08 barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kFamilyNameTruncation">kFamilyNameTruncation</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 04, 05, 06, 07, 08 and Compact Encoding
-
-     A code that indicates whether a field has been truncated (T), has not been
-     truncated (N), or – unknown whether truncated (U).</div>
+<div class="block">Mandatory on AAMVA 04, 05, 06, 07, 08 barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/ParserSettingsKeys.html#kFavorMod97">kFavorMod97</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/ParserSettingsKeys.html" title="class in com.microblink.recognizers.settings">ParserSettingsKeys</a></dt>
 <dd>
@@ -1644,16 +1580,13 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kFirstNameTruncation">kFirstNameTruncation</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 04, 05, 06, 07, 08 and Compact Encoding
-
-     A code that indicates whether a field has been truncated (T), has not been
-     truncated (N), or – unknown whether truncated (U).</div>
+<div class="block">Mandatory on AAMVA 04, 05, 06, 07, 08 barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/SettingsKeys.html#kFrameQualityEstimationMode">kFrameQualityEstimationMode</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/SettingsKeys.html" title="class in com.microblink.recognizers.settings">SettingsKeys</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kFullAddress">kFullAddress</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on compact encoding.</div>
+<div class="block">Mandatory on all AAMVA and Magnetic barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/SettingsKeys.html#kGenericRecognizer">kGenericRecognizer</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/SettingsKeys.html" title="class in com.microblink.recognizers.settings">SettingsKeys</a></dt>
 <dd>
@@ -1665,13 +1598,11 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kHairColor">kHairColor</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 01, 02, 03, 04, 05, 06, 07, 08 and Compact Encoding
-
-     Bald, black, blonde, brown, gray, red/auburn, sandy, white, unknown.</div>
+<div class="block">Optional on all AAMVA, Magnetic and Compact barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kHAZMATExpirationDate">kHAZMATExpirationDate</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 04, 05, 06, 07, 08 and Compact Encoding
+<div class="block">Optional on AAMVA 04, 05, 06, 07, 08 and Compact barcodes
 
      Date on which the hazardous material endorsement granted by the document is
      no longer valid.</div>
@@ -1684,18 +1615,11 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kHeightCm">kHeightCm</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 01
-     Mandatory on Compact encoding
-
-     HEIGHT in CENTIMETERS</div>
+<div class="block">Mandatory on AAMVA 02, 03, 04, 05, 06, 07, 08 Compact barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kHeightIn">kHeightIn</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 01
-
-     Height (FT/IN)
-
-     FEET (1st char); Inches (2nd and 3rd char).</div>
+<div class="block">Mandatory on AAMVA 02, 03, 04, 05, 06, 07, 08 and Compact barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/SettingsKeys.html#kHuSlip">kHuSlip</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/SettingsKeys.html" title="class in com.microblink.recognizers.settings">SettingsKeys</a></dt>
 <dd>
@@ -1707,14 +1631,6 @@
 <dd>
 <div class="block">IBAN parser</div>
 </dd>
-<dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kImageTimestamp">kImageTimestamp</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
-<dd>
-<div class="block">Optional on compact encoding.</div>
-</dd>
-<dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kImageType">kImageType</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
-<dd>
-<div class="block">Optional on compact encoding.</div>
-</dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kInventoryControlNumber">kInventoryControlNumber</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
 <div class="block">Optional on AAMVA 02, 03, 04, 05, 06, 07, 08
@@ -1724,11 +1640,7 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kIssuerIdentificationNumber">kIssuerIdentificationNumber</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 01, 02, 03, 04, 05, 06, 07, 08
-     Optional on Compact encoding
-
-     This number uniquely identifies the issuing jurisdiction and can
-     be obtained by contacting the ISO Issuing Authority (AAMVA)</div>
+<div class="block">Mandatory on all AAMVA, Magnetic and Compact barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kIssueTimestamp">kIssueTimestamp</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
@@ -1736,11 +1648,7 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kIssuingJurisdiction">kIssuingJurisdiction</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 01, 02, 03, 04, 05, 06, 07, 08
-
-     Mandatory on Compact Encoding
-
-     Jurisdictions may define a subfile to contain jurisdiction-specific information.</div>
+<div class="block">Optional on all AAMVA barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/SettingsKeys.html#kITF">kITF</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/SettingsKeys.html" title="class in com.microblink.recognizers.settings">SettingsKeys</a></dt>
 <dd>
@@ -1748,52 +1656,39 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kJurisdictionEndorsementCodes">kJurisdictionEndorsementCodes</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 01, 02, 03, 04, 05, 06, 07, 08
-
-     Jurisdiction-specific codes that represent additional privileges
-     granted to the cardholder beyond the vehicle class (such as transportation of
-     passengers, hazardous materials, operation of motorcycles, etc.).</div>
+<div class="block">Mandatory on all AAMVA barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kJurisdictionEndorsmentCodeDescription">kJurisdictionEndorsmentCodeDescription</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 02, 03, 04, 05, 06, 07, 08 and Compact Encoding
+<div class="block">Optional on AAMVA 02, 03, 04, 05, 06, 07, 08 and Compact barcodes
 
      Text that explains the jurisdiction-specific code(s) that indicates additional
      driving privileges granted to the cardholder beyond the vehicle class.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kJurisdictionRestrictionCodeDescription">kJurisdictionRestrictionCodeDescription</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 02, 03, 04, 05, 06, 07, 08 and Compact Encoding
+<div class="block">Optional on AAMVA 02, 03, 04, 05, 06, 07, 08 and Compact barcodes
 
      Text describing the jurisdiction-specific restriction code(s) that curtail driving privileges.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kJurisdictionRestrictionCodes">kJurisdictionRestrictionCodes</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 01, 02, 03, 04, 05, 06, 07, 08
-
-     Jurisdiction-specific codes that represent restrictions to driving
-     privileges (such as airbrakes, automatic transmission, daylight only, etc.).</div>
+<div class="block">Mandatory on all AAMVA barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kJurisdictionVehicleClass">kJurisdictionVehicleClass</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 01, 02, 03, 04, 05, 06, 07, 08
-
-     Jurisdiction-specific vehicle class / group code, designating the type
-     of vehicle the cardholder has privilege to drive.</div>
+<div class="block">Mandatory on all AAMVA and Magnetic barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kJurisdictionVehicleClassificationDescription">kJurisdictionVehicleClassificationDescription</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 02, 03, 04, 05, 06, 07, 08 and Compact Encoding
+<div class="block">Optional on AAMVA 02, 03, 04, 05, 06, 07, 08 and Compact barcodes
 
      Text that explains the jurisdiction-specific code(s) for classifications
      of vehicles cardholder is authorized to drive.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kJurisdictionVersionNumber">kJurisdictionVersionNumber</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 01, 02, 03, 04, 05, 06, 07, 08 and Compact Encoding
-
-     Jurisdiction Version Number: This is a decimal value between 00 and 99 that
-     specifies the jurisdiction version level of the PDF417 bar code format.</div>
+<div class="block">Mandatory on all AAMVA and Compact barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/SettingsKeys.html#kKosCode128">kKosCode128</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/SettingsKeys.html" title="class in com.microblink.recognizers.settings">SettingsKeys</a></dt>
 <dd>
@@ -1809,7 +1704,7 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kLimitedDurationDocument">kLimitedDurationDocument</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 04, 05, 06, 07, 08 and Compact Encoding
+<div class="block">Optional on AAMVA 04, 05, 06, 07, 08 and Compact barcodes
 
      DHS required field that indicates that the cardholder has temporary lawful status = "1".</div>
 </dd>
@@ -1850,9 +1745,7 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kNameSuffix">kNameSuffix</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 01, 02, 03, 04, 05, 06, 07, 08 and Compact Encoding
-
-     Name Suffix (If jurisdiction participates in systems requiring name suffix (PDPS, CDLIS, etc.), the suffix must be collected and displayed on the DL/ID and in the MRT).</div>
+<div class="block">Mandatory on AAMVA 02 barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/SettingsKeys.html#kNlSlip">kNlSlip</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/SettingsKeys.html" title="class in com.microblink.recognizers.settings">SettingsKeys</a></dt>
 <dd>
@@ -1928,13 +1821,9 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kPlaceOfBirth">kPlaceOfBirth</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 02, 03, 04, 05, 06, 07, 08 and Compact Encoding
+<div class="block">Optional on AAMVA 02, 03, 04, 05, 06, 07, 08 and Compact barcodes
 
      Country and municipality and/or state/province</div>
-</dd>
-<dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kPortraitImage">kPortraitImage</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
-<dd>
-<div class="block">Optional on compact encoding.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/SettingsKeys.html#kQRCode">kQRCode</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/SettingsKeys.html" title="class in com.microblink.recognizers.settings">SettingsKeys</a></dt>
 <dd>
@@ -1942,7 +1831,7 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kRaceEthnicity">kRaceEthnicity</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 02, 03, 04, 05, 06, 07, 08 and Compact Encoding
+<div class="block">Optional on AAMVA 02, 03, 04, 05, 06, 07, 08 and Compact barcodes
 
      Codes for race or ethnicity of the cardholder, as defined in ANSI D20.</div>
 </dd>
@@ -1966,6 +1855,10 @@
 <dd>
 <div class="block">Optional on AAMVA version 01.</div>
 </dd>
+<dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kResidenceFullAddress">kResidenceFullAddress</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
+<dd>
+<div class="block">Optional on AAMVA 01 barcodes.</div>
+</dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kResidenceJurisdictionCode">kResidenceJurisdictionCode</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
 <div class="block">Optional on AAMVA version 01.</div>
@@ -1986,6 +1879,8 @@
 <dd>
 <div class="block">sanitize data</div>
 </dd>
+<dt><span class="strong"><a href="./com/microblink/recognizers/settings/SettingsKeys.html#kScan1DBarcodes">kScan1DBarcodes</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/SettingsKeys.html" title="class in com.microblink.recognizers.settings">SettingsKeys</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/SettingsKeys.html#kScanInverse">kScanInverse</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/SettingsKeys.html" title="class in com.microblink.recognizers.settings">SettingsKeys</a></dt>
 <dd>
 <div class="block">scan inverse barcodes</div>
@@ -1996,9 +1891,7 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kSecurityVersion">kSecurityVersion</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AMMVA Magnetic Stripe Encoding
-
-     Security version beeing used.</div>
+<div class="block">Optional on Magnetic barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/ParserSettingsKeys.html#kSerbianAccount">kSerbianAccount</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/ParserSettingsKeys.html" title="class in com.microblink.recognizers.settings">ParserSettingsKeys</a></dt>
 <dd>
@@ -2010,9 +1903,7 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kSex">kSex</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Mandatory on AAMVA 01, 02, 03, 04, 05, 06, 07, 08 and Compact encoding
-
-     Gender of the cardholder.</div>
+<div class="block">Mandatory on all AAMVA, Magentic barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/SettingsKeys.html#kShowFull">kShowFull</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/SettingsKeys.html" title="class in com.microblink.recognizers.settings">SettingsKeys</a></dt>
 <dd>&nbsp;</dd>
@@ -2032,21 +1923,21 @@
 <dd>&nbsp;</dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kStandardEndorsementCode">kStandardEndorsementCode</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 01, 02, 03, 04, 05, 06, 07 and 08
-
-     Standard endorsement code(s) for cardholder.</div>
+<div class="block">Optional on all AAMVA barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kStandardRestrictionCode">kStandardRestrictionCode</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 01, 02, 03, 04, 05, 06, 07 and 08
+<div class="block">Optional on all AAMVA barcodes
 
      Standard restriction code(s) for cardholder.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kStandardVehicleClassification">kStandardVehicleClassification</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 01, 02, 03, 04, 05, 06, 07, 08 and Compact Encoding
-
-     Standard vehicle classification code(s) for cardholder.</div>
+<div class="block">Optional on all AAMVA barcodes.</div>
+</dd>
+<dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kStandardVersionNumber">kStandardVersionNumber</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
+<dd>
+<div class="block">Mandatory on all driver's licenses.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/ParserSettingsKeys.html#kSwedishAmount">kSwedishAmount</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/ParserSettingsKeys.html" title="class in com.microblink.recognizers.settings">ParserSettingsKeys</a></dt>
 <dd>
@@ -2128,31 +2019,15 @@
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kWeightKilograms">kWeightKilograms</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 01, 04, 05, 06, 07, 08 and Compact Encoding
-
-     Cardholder weight in kilograms Ex.</div>
+<div class="block">Mandatory on AAMVA 02 barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kWeightPounds">kWeightPounds</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 01, 04, 05, 06, 07, 08
-
-     Cardholder weight in pounds Ex.</div>
+<div class="block">Mandatory on AAMVA 02 barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html#kWeightRange">kWeightRange</a></span> - Static variable in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLScanResult.html" title="class in com.microblink.recognizers.barcode.usdl">USDLScanResult</a></dt>
 <dd>
-<div class="block">Optional on AAMVA 02, 03, 04, 05, 06, 07, 08
-
-     Indicates the approximate weight range of the cardholder:
-     0 = up to 31 kg (up to 70 lbs)
-     1 = 32 – 45 kg (71 – 100 lbs)
-     2 = 46 - 59 kg (101 – 130 lbs)
-     3 = 60 - 70 kg (131 – 160 lbs)
-     4 = 71 - 86 kg (161 – 190 lbs)
-     5 = 87 - 100 kg (191 – 220 lbs)
-     6 = 101 - 113 kg (221 – 250 lbs)
-     7 = 114 - 127 kg (251 – 280 lbs)
-     8 = 128 – 145 kg (281 – 320 lbs)
-     9 = 146+ kg (321+ lbs)</div>
+<div class="block">Mandatory on AAMVA 02 barcodes.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/settings/SettingsKeys.html#kZXingEnabled">kZXingEnabled</a></span> - Static variable in class com.microblink.recognizers.settings.<a href="./com/microblink/recognizers/settings/SettingsKeys.html" title="class in com.microblink.recognizers.settings">SettingsKeys</a></dt>
 <dd>
@@ -2585,6 +2460,8 @@
 <dd>
 <div class="block">Pauses the scanning loop.</div>
 </dd>
+<dt><span class="strong"><a href="./com/microblink/view/recognition/RecognizerView.html#pauseScanningInternal(boolean)">pauseScanningInternal(boolean)</a></span> - Method in class com.microblink.view.recognition.<a href="./com/microblink/view/recognition/RecognizerView.html" title="class in com.microblink.view.recognition">RecognizerView</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/RecognitionResultConstants.html#PAYBULL_URL">PAYBULL_URL</a></span> - Static variable in interface com.microblink.recognizers.<a href="./com/microblink/recognizers/RecognitionResultConstants.html" title="interface in com.microblink.recognizers">RecognitionResultConstants</a></dt>
 <dd>
 <div class="block">Key for accessing PayBull URL element.</div>
@@ -3120,6 +2997,11 @@
 <dd>
 <div class="block">Sets the duration of rotatable view rotation animation (valid only if setAnimateRotation(true) was called).</div>
 </dd>
+<dt><span class="strong"><a href="./com/microblink/recognizers/barcode/usdl/USDLRecognizerSettings.html#setScan1DBarcodes(boolean)">setScan1DBarcodes(boolean)</a></span> - Method in class com.microblink.recognizers.barcode.usdl.<a href="./com/microblink/recognizers/barcode/usdl/USDLRecognizerSettings.html" title="class in com.microblink.recognizers.barcode.usdl">USDLRecognizerSettings</a></dt>
+<dd>
+<div class="block">Allow scanning of 1D Code39 and Code128 barcodes on driver's licenses that contain
+ those barcodes alongside PDF417 barcode.</div>
+</dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html#setScanAztecCode(boolean)">setScanAztecCode(boolean)</a></span> - Method in class com.microblink.recognizers.barcode.zxing.<a href="./com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html" title="class in com.microblink.recognizers.barcode.zxing">ZXingRecognizerSettings</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/bardecoder/BarDecoderRecognizerSettings.html#setScanCode128(boolean)">setScanCode128(boolean)</a></span> - Method in class com.microblink.recognizers.barcode.bardecoder.<a href="./com/microblink/recognizers/barcode/bardecoder/BarDecoderRecognizerSettings.html" title="class in com.microblink.recognizers.barcode.bardecoder">BarDecoderRecognizerSettings</a></dt>
@@ -3247,6 +3129,8 @@
 <dd>
 <div class="block">Key for accessing SlipID element.</div>
 </dd>
+<dt><span class="strong"><a href="./com/microblink/view/recognition/RecognizerView.html#snapCurrentlyBestFrame()">snapCurrentlyBestFrame()</a></span> - Method in class com.microblink.view.recognition.<a href="./com/microblink/view/recognition/RecognizerView.html" title="class in com.microblink.view.recognition">RecognizerView</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/RecognitionResultConstants.html#SORTING_CODE">SORTING_CODE</a></span> - Static variable in interface com.microblink.recognizers.<a href="./com/microblink/recognizers/RecognitionResultConstants.html" title="interface in com.microblink.recognizers">RecognitionResultConstants</a></dt>
 <dd>
 <div class="block">Key for accessing sorting code result</div>
