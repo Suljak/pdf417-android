@@ -542,6 +542,10 @@
 <dd>
 <div class="block">Type of camera to be used (back facing, front facing, default)</div>
 </dd>
+<dt><span class="strong"><a href="./com/microblink/activity/BaseScanActivity.html#EXTRAS_CAMERA_VIDEO_PRESET">EXTRAS_CAMERA_VIDEO_PRESET</a></span> - Static variable in class com.microblink.activity.<a href="./com/microblink/activity/BaseScanActivity.html" title="class in com.microblink.activity">BaseScanActivity</a></dt>
+<dd>
+<div class="block">Request usage of maximum possible camera resolution for performing a scan.</div>
+</dd>
 <dt><span class="strong"><a href="./com/microblink/activity/BaseScanActivity.html#EXTRAS_GENERIC_SETTINGS">EXTRAS_GENERIC_SETTINGS</a></span> - Static variable in class com.microblink.activity.<a href="./com/microblink/activity/BaseScanActivity.html" title="class in com.microblink.activity">BaseScanActivity</a></dt>
 <dd>
 <div class="block">Key for setting the settings object used for all recognizers in EXTRAS_RECOGNIZER_SETTINGS_ARRAY</div>
@@ -591,10 +595,6 @@
 <dt><span class="strong"><a href="./com/microblink/activity/BaseScanActivity.html#EXTRAS_USE_LEGACY_CAMERA_API">EXTRAS_USE_LEGACY_CAMERA_API</a></span> - Static variable in class com.microblink.activity.<a href="./com/microblink/activity/BaseScanActivity.html" title="class in com.microblink.activity">BaseScanActivity</a></dt>
 <dd>
 <div class="block">Force using legacy Camera API even on Lollipop devices that support new Camera2 API.</div>
-</dd>
-<dt><span class="strong"><a href="./com/microblink/activity/BaseScanActivity.html#EXTRAS_USE_MAXIMUM_RESOLUTION">EXTRAS_USE_MAXIMUM_RESOLUTION</a></span> - Static variable in class com.microblink.activity.<a href="./com/microblink/activity/BaseScanActivity.html" title="class in com.microblink.activity">BaseScanActivity</a></dt>
-<dd>
-<div class="block">Request usage of maximum possible camera resolution for performing a scan.</div>
 </dd>
 <dt><span class="strong"><a href="./com/microblink/activity/BaseScanActivity.html#EXTRAS_VIEWFINDER_MOVEABLE">EXTRAS_VIEWFINDER_MOVEABLE</a></span> - Static variable in class com.microblink.activity.<a href="./com/microblink/activity/BaseScanActivity.html" title="class in com.microblink.activity">BaseScanActivity</a></dt>
 <dd>
@@ -3038,8 +3038,6 @@
 <dd>
 <div class="block">Sets the shake callback that will be notified about device shake events.</div>
 </dd>
-<dt><span class="strong"><a href="./com/microblink/view/BaseCameraView.html#setShouldAlwaysUseHighestPossibleResolution(boolean)">setShouldAlwaysUseHighestPossibleResolution(boolean)</a></span> - Method in class com.microblink.view.<a href="./com/microblink/view/BaseCameraView.html" title="class in com.microblink.view">BaseCameraView</a></dt>
-<dd>&nbsp;</dd>
 <dt><span class="strong"><a href="./com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html#setSlowThoroughScan(boolean)">setSlowThoroughScan(boolean)</a></span> - Method in class com.microblink.recognizers.barcode.zxing.<a href="./com/microblink/recognizers/barcode/zxing/ZXingRecognizerSettings.html" title="class in com.microblink.recognizers.barcode.zxing">ZXingRecognizerSettings</a></dt>
 <dd>
 <div class="block">If this is enabled (default), then scanning will be slower, but more thorough, thus
@@ -3071,6 +3069,8 @@
 <div class="block">In order to display camera preview, camera view must use one of two android's view's that are
  capable of displaying camera preview video stream.</div>
 </dd>
+<dt><span class="strong"><a href="./com/microblink/view/BaseCameraView.html#setVideoResolutionPreset(VideoResolutionPreset)">setVideoResolutionPreset(VideoResolutionPreset)</a></span> - Method in class com.microblink.view.<a href="./com/microblink/view/BaseCameraView.html" title="class in com.microblink.view">BaseCameraView</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="strong"><a href="./com/microblink/directApi/frame/BitmapCameraFrame.html#setVisiblePart(com.microblink.geometry.Rectangle)">setVisiblePart(Rectangle)</a></span> - Method in class com.microblink.directApi.frame.<a href="./com/microblink/directApi/frame/BitmapCameraFrame.html" title="class in com.microblink.directApi.frame">BitmapCameraFrame</a></dt>
 <dd>
 <div class="block">sets the region that defines the visible part of frame</div>
