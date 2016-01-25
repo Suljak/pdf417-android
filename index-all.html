@@ -250,6 +250,8 @@
 <dd>
 <div class="block">Created by dodo on 06/10/14.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="com/microblink/util/RecognizerCompatibility.html#cameraHasAutofocus-com.microblink.hardware.camera.CameraType-android.content.Context-">cameraHasAutofocus(CameraType, Context)</a></span> - Static method in class com.microblink.util.<a href="com/microblink/util/RecognizerCompatibility.html" title="class in com.microblink.util">RecognizerCompatibility</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="com/microblink/util/CameraPermissionManager.html" title="class in com.microblink.util"><span class="typeNameLink">CameraPermissionManager</span></a> - Class in <a href="com/microblink/util/package-summary.html">com.microblink.util</a></dt>
 <dd>
 <div class="block">Helper class that shows the camera permission screen when user has denied camera permission
@@ -977,6 +979,8 @@
 <dd>
 <div class="block">Returns the type of recognition.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="com/microblink/util/RecognizerCompatibility.html#getRecognizerCompatibilityStatus-android.content.Context-">getRecognizerCompatibilityStatus(Context)</a></span> - Static method in class com.microblink.util.<a href="com/microblink/util/RecognizerCompatibility.html" title="class in com.microblink.util">RecognizerCompatibility</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="com/microblink/recognizers/settings/RecognitionSettings.html#getRecognizerSettingsArray--">getRecognizerSettingsArray()</a></span> - Method in class com.microblink.recognizers.settings.<a href="com/microblink/recognizers/settings/RecognitionSettings.html" title="class in com.microblink.recognizers.settings">RecognitionSettings</a></dt>
 <dd>
 <div class="block">Returns the currently active recognizer settings array</div>
@@ -1291,15 +1295,16 @@
 <dd>
 <div class="block">Returns true if camera view will handle pinch events to manage camera zoom level.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="com/microblink/view/recognition/RecognizerView.html#isRecognitionPaused--">isRecognitionPaused()</a></span> - Method in class com.microblink.view.recognition.<a href="com/microblink/view/recognition/RecognizerView.html" title="class in com.microblink.view.recognition">RecognizerView</a></dt>
-<dd>
-<div class="block">Returns true if recognizer is currently paused (camera preview may still be active).</div>
-</dd>
 <dt><span class="memberNameLink"><a href="com/microblink/view/BaseCameraView.LayoutParams.html#isRotatable--">isRotatable()</a></span> - Method in class com.microblink.view.<a href="com/microblink/view/BaseCameraView.LayoutParams.html" title="class in com.microblink.view">BaseCameraView.LayoutParams</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="com/microblink/recognizers/blinkbarcode/usdl/USDLRecognizerSettings.html#isScanning1DBarcodes--">isScanning1DBarcodes()</a></span> - Method in class com.microblink.recognizers.blinkbarcode.usdl.<a href="com/microblink/recognizers/blinkbarcode/usdl/USDLRecognizerSettings.html" title="class in com.microblink.recognizers.blinkbarcode.usdl">USDLRecognizerSettings</a></dt>
 <dd>
 <div class="block">Returns true if scanning of 1D barcodes on some driver's licenses is enabled.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="com/microblink/view/recognition/RecognizerView.html#isScanningPaused--">isScanningPaused()</a></span> - Method in class com.microblink.view.recognition.<a href="com/microblink/view/recognition/RecognizerView.html" title="class in com.microblink.view.recognition">RecognizerView</a></dt>
+<dd>
+<div class="block">Returns true if scanning is paused or method is called before <a href="com/microblink/view/recognition/RecognizerView.html#create--"><code>RecognizerView.create()</code></a> or after <a href="com/microblink/view/recognition/RecognizerView.html#destroy--"><code>RecognizerView.destroy()</code></a>
+ Intended to be used along with <a href="com/microblink/view/recognition/RecognizerView.html#pauseScanning--"><code>RecognizerView.pauseScanning()</code></a> and <a href="com/microblink/view/recognition/RecognizerView.html#resumeScanning-boolean-"><code>RecognizerView.resumeScanning(boolean)</code></a></div>
 </dd>
 <dt><span class="memberNameLink"><a href="com/microblink/recognizers/blinkbarcode/zxing/ZXingRecognizerSettings.html#isSlowThoroughScan--">isSlowThoroughScan()</a></span> - Method in class com.microblink.recognizers.blinkbarcode.zxing.<a href="com/microblink/recognizers/blinkbarcode/zxing/ZXingRecognizerSettings.html" title="class in com.microblink.recognizers.blinkbarcode.zxing">ZXingRecognizerSettings</a></dt>
 <dd>
@@ -1966,6 +1971,23 @@
 <dl>
 <dt><span class="memberNameLink"><a href="com/microblink/recognizers/RecognitionResultConstants.html#OCR_RESULT">OCR_RESULT</a></span> - Static variable in interface com.microblink.recognizers.<a href="com/microblink/recognizers/RecognitionResultConstants.html" title="interface in com.microblink.recognizers">RecognitionResultConstants</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="com/microblink/activity/BaseScanActivity.html#onActivityFlip--">onActivityFlip()</a></span> - Method in class com.microblink.activity.<a href="com/microblink/activity/BaseScanActivity.html" title="class in com.microblink.activity">BaseScanActivity</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="com/microblink/view/BaseCameraView.html#onActivityFlip--">onActivityFlip()</a></span> - Method in class com.microblink.view.<a href="com/microblink/view/BaseCameraView.html" title="class in com.microblink.view">BaseCameraView</a></dt>
+<dd>
+<div class="block">Called when activity is flipped - this event is not raised by OS so we have custom detection
+ of that state.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="com/microblink/view/OnActivityFlipListener.html#onActivityFlip--">onActivityFlip()</a></span> - Method in interface com.microblink.view.<a href="com/microblink/view/OnActivityFlipListener.html" title="interface in com.microblink.view">OnActivityFlipListener</a></dt>
+<dd>
+<div class="block">Called when activity is flipped.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="com/microblink/view/recognition/RecognizerView.html#onActivityFlip--">onActivityFlip()</a></span> - Method in class com.microblink.view.recognition.<a href="com/microblink/view/recognition/RecognizerView.html" title="class in com.microblink.view.recognition">RecognizerView</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="com/microblink/view/OnActivityFlipListener.html" title="interface in com.microblink.view"><span class="typeNameLink">OnActivityFlipListener</span></a> - Interface in <a href="com/microblink/view/package-summary.html">com.microblink.view</a></dt>
+<dd>
+<div class="block">Listener that will notify you when activity flip has occurred.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="com/microblink/activity/BaseScanActivity.html#onAutofocusFailed--">onAutofocusFailed()</a></span> - Method in class com.microblink.activity.<a href="com/microblink/activity/BaseScanActivity.html" title="class in com.microblink.activity">BaseScanActivity</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="com/microblink/view/BaseCameraView.BaseCameraListener.html#onAutofocusFailed--">onAutofocusFailed()</a></span> - Method in class com.microblink.view.<a href="com/microblink/view/BaseCameraView.BaseCameraListener.html" title="class in com.microblink.view">BaseCameraView.BaseCameraListener</a></dt>
@@ -2038,6 +2060,8 @@
 <div class="block">Called on processing thread when it wants to show an image it is currently in process.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="com/microblink/view/BaseCameraView.html#onLayout-boolean-int-int-int-int-">onLayout(boolean, int, int, int, int)</a></span> - Method in class com.microblink.view.<a href="com/microblink/view/BaseCameraView.html" title="class in com.microblink.view">BaseCameraView</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="com/microblink/view/recognition/RecognizerView.html#onLayout-boolean-int-int-int-int-">onLayout(boolean, int, int, int, int)</a></span> - Method in class com.microblink.view.recognition.<a href="com/microblink/view/recognition/RecognizerView.html" title="class in com.microblink.view.recognition">RecognizerView</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="com/microblink/view/BaseCameraView.html#onMeasure-int-int-">onMeasure(int, int)</a></span> - Method in class com.microblink.view.<a href="com/microblink/view/BaseCameraView.html" title="class in com.microblink.view">BaseCameraView</a></dt>
 <dd>&nbsp;</dd>
@@ -2388,6 +2412,12 @@
 </dd>
 <dt><a href="com/microblink/directApi/Recognizer.State.html" title="enum in com.microblink.directApi"><span class="typeNameLink">Recognizer.State</span></a> - Enum in <a href="com/microblink/directApi/package-summary.html">com.microblink.directApi</a></dt>
 <dd>&nbsp;</dd>
+<dt><a href="com/microblink/util/RecognizerCompatibility.html" title="class in com.microblink.util"><span class="typeNameLink">RecognizerCompatibility</span></a> - Class in <a href="com/microblink/util/package-summary.html">com.microblink.util</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="com/microblink/util/RecognizerCompatibility.html#RecognizerCompatibility--">RecognizerCompatibility()</a></span> - Constructor for class com.microblink.util.<a href="com/microblink/util/RecognizerCompatibility.html" title="class in com.microblink.util">RecognizerCompatibility</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="com/microblink/util/RecognizerCompatibilityStatus.html" title="enum in com.microblink.util"><span class="typeNameLink">RecognizerCompatibilityStatus</span></a> - Enum in <a href="com/microblink/util/package-summary.html">com.microblink.util</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="com/microblink/recognizers/settings/RecognizerSettings.html" title="class in com.microblink.recognizers.settings"><span class="typeNameLink">RecognizerSettings</span></a> - Class in <a href="com/microblink/recognizers/settings/package-summary.html">com.microblink.recognizers.settings</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="com/microblink/recognizers/settings/RecognizerSettings.html#RecognizerSettings--">RecognizerSettings()</a></span> - Constructor for class com.microblink.recognizers.settings.<a href="com/microblink/recognizers/settings/RecognizerSettings.html" title="class in com.microblink.recognizers.settings">RecognizerSettings</a></dt>
@@ -2648,6 +2678,10 @@
 <dt><span class="memberNameLink"><a href="com/microblink/metadata/MetadataSettings.html#setOcrMetadataAllowed-boolean-">setOcrMetadataAllowed(boolean)</a></span> - Method in class com.microblink.metadata.<a href="com/microblink/metadata/MetadataSettings.html" title="class in com.microblink.metadata">MetadataSettings</a></dt>
 <dd>
 <div class="block">Sets whether OCR metadata should be available in MetadataListener.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="com/microblink/view/BaseCameraView.html#setOnActivityFlipListener-com.microblink.view.OnActivityFlipListener-">setOnActivityFlipListener(OnActivityFlipListener)</a></span> - Method in class com.microblink.view.<a href="com/microblink/view/BaseCameraView.html" title="class in com.microblink.view">BaseCameraView</a></dt>
+<dd>
+<div class="block">Sets the listener that will be notified when activity flip event occurs.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="com/microblink/view/BaseCameraView.html#setOnSizeChangedListener-com.microblink.view.OnSizeChangedListener-">setOnSizeChangedListener(OnSizeChangedListener)</a></span> - Method in class com.microblink.view.<a href="com/microblink/view/BaseCameraView.html" title="class in com.microblink.view">BaseCameraView</a></dt>
 <dd>
@@ -2983,6 +3017,10 @@
 <dd>
 <div class="block">Returns the enum constant of this type with the specified name.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="com/microblink/util/RecognizerCompatibilityStatus.html#valueOf-java.lang.String-">valueOf(String)</a></span> - Static method in enum com.microblink.util.<a href="com/microblink/util/RecognizerCompatibilityStatus.html" title="enum in com.microblink.util">RecognizerCompatibilityStatus</a></dt>
+<dd>
+<div class="block">Returns the enum constant of this type with the specified name.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="com/microblink/view/BaseCameraView.CameraViewState.html#valueOf-java.lang.String-">valueOf(String)</a></span> - Static method in enum com.microblink.view.<a href="com/microblink/view/BaseCameraView.CameraViewState.html" title="enum in com.microblink.view">BaseCameraView.CameraViewState</a></dt>
 <dd>
 <div class="block">Returns the enum constant of this type with the specified name.</div>
@@ -3045,6 +3083,11 @@ the order they are declared.</div>
 the order they are declared.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="com/microblink/results/barcode/ElementType.html#values--">values()</a></span> - Static method in enum com.microblink.results.barcode.<a href="com/microblink/results/barcode/ElementType.html" title="enum in com.microblink.results.barcode">ElementType</a></dt>
+<dd>
+<div class="block">Returns an array containing the constants of this enum type, in
+the order they are declared.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="com/microblink/util/RecognizerCompatibilityStatus.html#values--">values()</a></span> - Static method in enum com.microblink.util.<a href="com/microblink/util/RecognizerCompatibilityStatus.html" title="enum in com.microblink.util">RecognizerCompatibilityStatus</a></dt>
 <dd>
 <div class="block">Returns an array containing the constants of this enum type, in
 the order they are declared.</div>
