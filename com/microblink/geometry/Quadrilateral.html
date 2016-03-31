@@ -17,7 +17,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10};
+var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -266,13 +266,19 @@ implements android.os.Parcelable</pre>
 </tr>
 <tr id="i9" class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../com/microblink/geometry/Quadrilateral.html#isEmpty--">isEmpty</a></span>()</code>
+<div class="block">Returns true if quadrilateral is empty, i.e.</div>
+</td>
+</tr>
+<tr id="i10" class="altColor">
+<td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../com/microblink/geometry/Quadrilateral.html#matchesMargins-int-int-int-int-int-">matchesMargins</a></span>(int&nbsp;top,
               int&nbsp;bottom,
               int&nbsp;left,
               int&nbsp;right,
               int&nbsp;hostActivityOrientation)</code>&nbsp;</td>
 </tr>
-<tr id="i10" class="altColor">
+<tr id="i11" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../com/microblink/geometry/Quadrilateral.html#mirror-int-int-int-">mirror</a></span>(int&nbsp;canvasWidth,
       int&nbsp;canvasHeight,
@@ -280,15 +286,15 @@ implements android.os.Parcelable</pre>
 <div class="block">Mirrors the quadrangle so that it can be properly drawn on mirrored camera preview</div>
 </td>
 </tr>
-<tr id="i11" class="rowColor">
+<tr id="i12" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../com/microblink/geometry/Quadrilateral.html#setColor-int-">setColor</a></span>(int&nbsp;color)</code>&nbsp;</td>
 </tr>
-<tr id="i12" class="altColor">
+<tr id="i13" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../com/microblink/geometry/Quadrilateral.html#setIsDefaultQuad-boolean-">setIsDefaultQuad</a></span>(boolean&nbsp;defaultQuad)</code>&nbsp;</td>
 </tr>
-<tr id="i13" class="rowColor">
+<tr id="i14" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../com/microblink/geometry/Quadrilateral.html#setMargins-int-int-int-int-int-">setMargins</a></span>(int&nbsp;top,
           int&nbsp;bottom,
@@ -296,24 +302,24 @@ implements android.os.Parcelable</pre>
           int&nbsp;right,
           int&nbsp;hostActivityOrientation)</code>&nbsp;</td>
 </tr>
-<tr id="i14" class="altColor">
+<tr id="i15" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../com/microblink/geometry/Quadrilateral.html#setPoints-com.microblink.geometry.Point-com.microblink.geometry.Point-com.microblink.geometry.Point-com.microblink.geometry.Point-">setPoints</a></span>(<a href="../../../com/microblink/geometry/Point.html" title="class in com.microblink.geometry">Point</a>&nbsp;uleft,
          <a href="../../../com/microblink/geometry/Point.html" title="class in com.microblink.geometry">Point</a>&nbsp;uright,
          <a href="../../../com/microblink/geometry/Point.html" title="class in com.microblink.geometry">Point</a>&nbsp;lleft,
          <a href="../../../com/microblink/geometry/Point.html" title="class in com.microblink.geometry">Point</a>&nbsp;lright)</code>&nbsp;</td>
 </tr>
-<tr id="i15" class="rowColor">
+<tr id="i16" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../com/microblink/geometry/Quadrilateral.html#toFloatArray-float:A-">toFloatArray</a></span>(float[]&nbsp;arr)</code>
 <div class="block">Converts this quadrilateral to array of float points.</div>
 </td>
 </tr>
-<tr id="i16" class="altColor">
+<tr id="i17" class="rowColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../com/microblink/geometry/Quadrilateral.html#toString--">toString</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i17" class="rowColor">
+<tr id="i18" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../com/microblink/geometry/Quadrilateral.html#writeToParcel-android.os.Parcel-int-">writeToParcel</a></span>(android.os.Parcel&nbsp;dest,
              int&nbsp;flags)</code>&nbsp;</td>
@@ -447,6 +453,20 @@ implements android.os.Parcelable</pre>
                               int&nbsp;left,
                               int&nbsp;right,
                               int&nbsp;hostActivityOrientation)</pre>
+</li>
+</ul>
+<a name="isEmpty--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>isEmpty</h4>
+<pre>public&nbsp;boolean&nbsp;isEmpty()</pre>
+<div class="block">Returns true if quadrilateral is empty, i.e. all 4 points have coordinates (0,0).</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>true if quadrilateral is empty, i.e. all 4 points have coordinates (0,0).</dd>
+</dl>
 </li>
 </ul>
 <a name="toFloatArray-float:A-">
