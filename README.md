@@ -18,7 +18,7 @@ _PDF417.mobi_ SDK for Android enables you to perform scans of various barcodes i
 
 Using _PDF417.mobi_ in your app requires a valid license. You can obtain a trial license by registering to [Microblink dashboard](https://microblink.com/login). After registering, you will be able to generate a license for your app. License is bound to [package name](http://tools.android.com/tech-docs/new-build-system/applicationid-vs-packagename) of your app, so please make sure you enter the correct package name when asked.
 
-For more information on how to integrate _PDF417.mobi_ SDK into your app read the instructions below. Make sure you read the latest [Release notes](Release notes.md) for most rescent changes and improvements.
+For more information on how to integrate _PDF417.mobi_ SDK into your app read the instructions below. Make sure you read the latest [Release notes]((https://github.com/BlinkID/blinkid-android/blob/master/Release%20notes.md)) for most rescent changes and improvements.
 
 # Table of contents
 
